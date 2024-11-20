@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  color: white;
+  
+
+}
+body{
+    font-size: 1.4rem;
+}
+header{
+background-color: #0089b7;
+position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.secondwhole{
+    margin: 0 auto;
+    max-width: 1300px;
+}
+.navbar{
+   padding: 15px 0px;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1{
+    font-size: 20px;
+}
+
+.restlogo ul{
+    list-style: none;
+    display: flex;
+    
+    gap: 20px;
+
+}
+.restlogo a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-bottom:0.4rem transparent solid ;
+    transition: 0.2 ease-in-out;
+    overflow: hidden;
+
+    
+}
+.restlogo a:hover{
+
+    border-bottom:2px solid yellow ;
+    transition:  ease-in-out;
+}
+
+
+
+.sectionone{
+   background-color: #003d62;
+  min-width: 100%;
+  padding: 20px 0;
+  font-weight: 700;
+
+}
+.imgandtext{
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+}
+
+.restofimgtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 190px;
+}
+
+.lineone{
+
+    display: flex;
+    line-height: 3rem;
+}
+.yellow{
+    color: yellow;
+    font-size: 62px;
+}
+.iam{
+    font-size: 47px;
+    padding: 0 6px;
+}
+.notyellow{
+    font-size: 62px;
+}
+.fedev{
+    font-size: 47px;
+}
+
+
+
+.sectiontwo{
+    background-color: #003251;
+    padding-bottom: 60px 
+}
+
+.projectandgrid h2{
+    font-size: 6rem;
+    padding-left: 27%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+   
+}
+.imgandgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    gap: 2rem;
+    
+    
+}
+.imgandgrid img{
+    
+    place-items: center;
+}
+
+.sectionthree{
+    background-color: #003d62;
+    text-align: center;
+    padding: 160px 0;
+}
+.textandicons h1{
+    padding-bottom: 40px;
+    font-size: 80px;
+}
+.sectionthree i{
+    letter-spacing: 3px;
+}
+
+.iconicions{
+    padding-bottom: 20px;
+}
+
+
+#twitter{
+    padding: 0 20px;
+}
+
+#gh{
+    padding-right: 20px;
+}

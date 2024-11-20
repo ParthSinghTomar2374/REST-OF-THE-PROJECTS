@@ -1,0 +1,96 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+/* img{
+
+   
+} */
+.first{
+   background-image: url(firstandlast.jpg);
+   min-height: 100%;
+  
+}
+.fif{
+   background-image: url(third.jpg);
+}
+.third{
+   background-image: url(second.jpg);
+   min-height: 100%;
+}
+.seventh{
+   background-image: url(firstandlast.jpg);
+   min-height: 100%;
+} 
+.first, .third, .fif, .seventh{
+   position: relative; 
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+   width: 100%;
+   
+}
+.hai1{
+   background-color: #666;
+}
+.sevone{
+   background-color: #666;
+   top: 50%;
+  left: 40%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+.hai1, .thone,.fivone {
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+
+  text-transform: uppercase;
+
+}
+.second, .forth, .sixth {
+   padding: 5vh;
+   background-color: #f4f4f4;
+   color: #666;
+   
+}
+ h2{
+   text-align: center;
+   padding-bottom: 2vh;
+}
+
+
+p{
+   padding-left: 5vh;
+   padding-right: 5vh ;
+   padding-top: 3vh;
+   padding-bottom: 6vh;
+}  
+ .third{
+   position: relative;
+
+}
+.thone{
+   position: absolute;
+   z-index: 100;
+}
+.fif{
+   position: relative;
+}
+.fivone{
+   position: absolute;
+}
+.seventh{
+   position: relative;
+}
+.sevone{
+   position: absolute;
+} 
