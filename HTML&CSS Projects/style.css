@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #270082;
+    color: white;
+    align-items: center;
+    padding-left: 22vh;
+    padding-right: 22vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    top: 0;
+    z-index: 100;
+}
+ul{
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+
+}
+.logo{
+    font-size: 32px;
+  font-weight: 600;
+}
+a{
+text-decoration: none;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sectionone{
+    background-image: url(hero_image.png);
+    height: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    
+
+    color: white;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    /* padding: 0 120px; */
+}
+.after{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.firte{
+    font-size: 96px;
+}
+.big{
+font-size: 36px;
+
+}
+.text{
+    word-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+.sectiontwo{
+    color: white;
+    background-color: #281154;
+    text-align: center;
+    padding-top: 100px;
+   
+}
+
+i::before{
+    padding-right: 12px;
+}
+i{
+    font-size: 6vh;
+    padding-bottom: 20px;
+}
+.btn{
+    margin:20px 0;
+    border: none;
+    background-color:red;
+    color: white;
+    padding: 12px;
+}
+.ipad-iphone{
+    position: relative;
+    margin-top: -400px;
+    top: 400px;
+
+}
+.sectionthree{
+    margin-top: 500px;
+    text-align: center;
+
+}
+.withover{
+    padding: 22px 0;
+
+}
+.sbtn{
+    border: none;
+    background-color: #270082;
+    color: white;
+    padding: 12px;
+    margin-bottom: 22px;
+}
+
+.sectionfourth{
+    background-image: url(video.png);
+    margin:50px 0 ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: grid; 
+    color: white;
+    text-align: center;
+    place-items: center;   
+}
+.lorem{
+    padding: 22px 0;
+}
+
+.sectionfive{
+    display: flex;
+    padding-right: 120px;
+    margin-bottom: 60px;
+}
+.notu{
+    padding-left: 100px;
+    margin-right: 80px;
+}
+.figtcard{
+    margin-bottom: 23px;
+}
+
+.relorem{
+    line-height: 25px;
+   
+    font-family: sans-serif;
+}
+.already{
+    margin-top: 23px;
+}
+
+
+.tubantu{
+    border: none;
+    color: white;
+    background-color: #270082;
+    padding: 12px;
+    margin-top: 13px;
+}
+
+
+
+.sectionsix{
+    background-color: #1b0058;
+    color: white;
+    display: flex;
+    gap: 200px;
+    padding: 60px 0px;
+    padding-left: 160px;
+    
+    
+    
+    
+}
+
+.le{
+    font-size: 15px;
+    border-bottom: 2px solid white;
+    
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sectionseven{
+    background-color: #270082;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
