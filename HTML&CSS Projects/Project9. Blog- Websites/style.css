@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+
+}
+.whole{
+
+}
+header{
+    position: relative;
+}
+body{
+    padding: 10px 170px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+nav{
+    padding-bottom: 10px;
+    padding-top: 30px;
+     position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  
+   
+   
+}
+.logo{
+   font-size:21px ;
+   font-family: sans-serif;
+}
+.restlogo ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+header{
+    position: sticky;
+}
+i{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.sectwo{
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.makewhy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+.makewhy h1{
+    font-size: 6rem;
+    line-height: 1.2;
+}
+.makewhy h3{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.fourfriends img{
+    
+    border-radius: 5rem;
+    
+}
+
+
+.sectionthree{
+  display: flex;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  gap:1rem;
+}
+.longest {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 15px;
+}
+.longest h3{
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.postfromhere{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.sectionfour{
+    margin-top: 60px;
+}
+.card_box{
+    display: flex;
+}
+.restcard{
+    padding: 0px 20px;
+}
+
+.le img{
+    width: 100%;
+}
+.le{padding-bottom: 9px;
+    border: 1px solid #e2e2e2;
+    box-sizing: 0.5rem;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+   
+}
+.le p{
+    padding: 15px 0;
+
+}
+.cardtwo{
+    margin: 0px 80px;
+}
+
+
+.sectionfive{
+   display: flex;
+   margin-top: 50px;
+  
+  border:2px solid #e2e2e2;
+  border-radius: 1rem;
+  box-shadow:  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+}
+
+.nun{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+.nun h2{
+    font-size: large;
+}
+.nun p{
+    padding: 20px 0px;
+    font-size: medium;
+}
+
+
+.sectionsix{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.lr{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* POST.HTML */
+
+
+
+
+.boximg img{
+    width: 100%;
+ margin-bottom: 25px;
+}
+.forfsake{
+    display: flex;
+   
+}
+.forfsake h3{
+    display: flex;
+    margin-left: 20px;
+    font-size:15px ;
+}
+
+section p{
+    margin: 25px 0;
+}

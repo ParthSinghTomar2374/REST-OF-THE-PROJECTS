@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.whole{
+    display: flex;
+width: 100%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+aside{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+
+}
+.logo{
+    height: 40px;
+    
+}
+.search_bar{
+    padding-left:20%;
+    padding-right: 17%;
+}
+.search_bar{
+display: flex;
+}
+
+input{
+    min-width: 400px;
+    padding: 14px 20px ;
+    border: 0.5px solid #ccc;
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    
+}
+
+.restlogo{
+    height: 5vh;
+    display: flex;
+    
+    gap: 25px;
+    margin-right: 60px;
+}
+
+.sectiontwo{
+    display: flex;
+    gap: 40px;
+    padding: 18px 20px;
+   
+   
+}
+.dark_one{
+    background-color: #000;
+    color: white;
+}
+.light_one{
+    background-color: rgb(238,238,238);
+    color: rgb(67, 67, 67);
+}
+.le{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(22,22,22)
+}
+
+.section_three{
+    min-height: 100vh;
+    min-width: 92vw;
+    background-color:rgb(240, 238, 238) ;
+    
+}
+
+.card-container {
+    display: inline;
+  }
+  .card {
+    padding: 10px;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar-content {
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+  }
+  .card h3 {
+    font-size: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .channel-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .content-status {
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+  }
+.thestorage{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
